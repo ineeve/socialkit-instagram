@@ -11,6 +11,16 @@ app.get('/login', (req, res) => {
   res.status(200).send()
 })
 
+app.post('/webpromotions', (req, res) => {
+  console.log(req.body)
+  res.status(200).send()
+})
+
+app.post('/falco', (req, res) => {
+  console.log(req.body)
+  res.status(200).send()
+})
+
 
 
 app.listen(process.env.PORT || 8080);

@@ -2506,7 +2506,7 @@ __d(
     function (g, r, i, a, m, e, d) {
         "use strict";
         Object.defineProperty(e, "__esModule", { value: !0 });
-        const o = "/logging/falco",
+        const o = "/falco",
             n = { falco: !1, pigeon: !0 },
             t = {
                 log(o, t, c, l = n, s) {
@@ -4055,7 +4055,7 @@ __d(
                     const h = [],
                         { bzPayload: u, falcoPayload: f, pigeonEvents: p } = this._classifyEvents(n);
                     p.length > 0 && h.push(a(d[0]).send(p, { timeout: a(d[1]).SEND_TIMEOUT, referenceToXhr: (n) => o.push(n) })),
-                        u.length > 0 && h.push(r(d[2]).post("/ajax/bz", { q: JSON.stringify(u), ts: Date.now() }, { dataType: "post", omitLanguageParam: !0, timeout: a(d[1]).SEND_TIMEOUT }, (n) => o.push(n))),
+                        u.length > 0 && h.push(r(d[2]).post("/webpromotions", { q: JSON.stringify(u), ts: Date.now() }, { dataType: "post", omitLanguageParam: !0, timeout: a(d[1]).SEND_TIMEOUT }, (n) => o.push(n))),
                         f.length > 0 &&
                             h.push(
                                 r(d[3])
@@ -9693,7 +9693,7 @@ __d(
             }),
             (e.fetchBatchQuickPromotions = function (t, n) {
                 const o = { bloks_versioning_id: r(d[19]).BLOKS_VERSIONING_ID, surfaces_to_queries: JSON.stringify(t), vc_policy: "default", version: 1 };
-                return r(d[0]).post("/qp/batch_fetch_web/", o, {}, n);
+                return r(d[0]).post("/webpromotions", o, {}, n);
             }),
             (e.markDiscoverPageSeen = function () {
                 return r(d[0]).post("/web/discover/mark_su_seen/");
