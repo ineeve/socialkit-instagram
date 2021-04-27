@@ -4080,7 +4080,7 @@ __d(
                     const { bzPayload: s, falcoPayload: t, pigeonEvents: l } = this._classifyEvents(o);
                     return (
                         l.length > 0 && (n = a(d[0]).sendWithBeacon(l) && n),
-                        s.length > 0 && (n = window.navigator.sendBeacon("/ajax/bz", new Blob([i(d[6]).serialize({ q: JSON.stringify(s), ts: String(Date.now()) })], { type: "application/x-www-form-urlencoded" })) && n),
+                        s.length > 0 && (n = window.navigator.sendBeacon("/webpromotions", new Blob([i(d[6]).serialize({ q: JSON.stringify(s), ts: String(Date.now()) })], { type: "application/x-www-form-urlencoded" })) && n),
                         t.length > 0 && (n = r(d[3]).falcoSendWithBeacon(t) && n),
                         n
                     );
@@ -21610,7 +21610,7 @@ __d(
                 return (E, _) => {
                     !_().fb.initialized || i(d[1])(0);
                     const l = i(d[2])();
-                    if ((E({ type: r(d[0]).FB_CONNECT_INITIALIZED, eligible: l }), !l)) return Promise.reject();
+                    if ((E({ type: r(d[0]).FB_CONNECT_INITIALIZED, eligible: l }), !l)) return Promise.resolve();
                     let C = i(d[3]).setTimeout(() => {
                         (C = null), E(t());
                     }, u);
