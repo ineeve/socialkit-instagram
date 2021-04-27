@@ -624,8 +624,8 @@ a.sH_mn:visited {
   background-color: transparent;
   border: 1px solid #ed4956;
   border: 1px solid rgba(var(--i30, 237, 73, 86), 1);
-  color: #52d827;
-  color: #52d827;
+  color: #ed4956;
+  color: rgba(var(--i30, 237, 73, 86), 1);
 }
 .y3zKF:not(.yWX7d),
 a.y3zKF:not(.yWX7d),
@@ -919,7 +919,7 @@ a.A086a {
 .wellbeingSpriteTwo_fac_on,
 .wellbeingSpriteTwo_fac_password,
 .wellbeingSpriteTwo_fac_sync {
-  background-image: url(/static/bundles/es6/sprite_wellbeing_6af9c5060ebc.png/6af9c5060ebc.png);
+  background-image: url(/assets/6af9c5060ebc.png);
 }
 .wellbeingSpriteTwo_fac_code {
   background-repeat: no-repeat;
@@ -957,7 +957,7 @@ a.A086a {
   .wellbeingSpriteTwo_fac_on,
   .wellbeingSpriteTwo_fac_password,
   .wellbeingSpriteTwo_fac_sync {
-    background-image: url(/static/bundles/es6/sprite_wellbeing_2x_c0241d394c59.png/c0241d394c59.png);
+    background-image: url(/assets/c0241d394c59.png);
   }
   .wellbeingSpriteTwo_fac_code {
     background-size: 188px 115px;
@@ -994,7 +994,7 @@ a.A086a {
 .storiesSpriteSticker__outline__44,
 .storiesSpriteText__filled__44,
 .storiesSpriteX__outline__44 {
-  background-image: url(/static/bundles/es6/sprite_stories_ce36b733f814.png/ce36b733f814.png);
+  background-image: url(/assets/ce36b733f814.png);
 }
 .storiesSpriteChisel__filled__44,
 .storiesSpriteChisel__outline__44 {
@@ -1085,7 +1085,7 @@ a.A086a {
   .storiesSpriteSticker__outline__44,
   .storiesSpriteText__filled__44,
   .storiesSpriteX__outline__44 {
-    background-image: url(/static/bundles/es6/sprite_stories_2x_5b2f74f4bf86.png/5b2f74f4bf86.png);
+    background-image: url(/assets/5b2f74f4bf86.png);
   }
   .storiesSpriteChisel__filled__44 {
     background-size: 179px 179px;
@@ -1147,7 +1147,7 @@ a.A086a {
 .nametagSpriteNT_Contrast,
 .nametagSpriteNT_Corners,
 .nametagSpriteNT_Pixels {
-  background-image: url(/static/bundles/es6/sprite_nametag_ff60b6c57870.png/ff60b6c57870.png);
+  background-image: url(/assets/ff60b6c57870.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   height: 120px;
@@ -1166,7 +1166,7 @@ a.A086a {
   .nametagSpriteNT_Contrast,
   .nametagSpriteNT_Corners,
   .nametagSpriteNT_Pixels {
-    background-image: url(/static/bundles/es6/sprite_nametag_2x_69c195e9ff3c.png/69c195e9ff3c.png);
+    background-image: url(/assets/69c195e9ff3c.png);
   }
   .nametagSpriteNT_Contrast {
     background-size: 241px 241px;
@@ -1184,7 +1184,7 @@ a.A086a {
 .mediatypesSpriteCarousel__filled__32,
 .mediatypesSpriteIgtv__filled__32,
 .mediatypesSpriteVideo__filled__32 {
-  background-image: url(/static/bundles/es6/sprite_mediatypes_65c15d7731ea.png/65c15d7731ea.png);
+  background-image: url(/assets/65c15d7731ea.png);
 }
 .mediatypesSpriteCarousel__filled__32 {
   background-repeat: no-repeat;
@@ -1208,7 +1208,7 @@ a.A086a {
   .mediatypesSpriteCarousel__filled__32,
   .mediatypesSpriteIgtv__filled__32,
   .mediatypesSpriteVideo__filled__32 {
-    background-image: url(/static/bundles/es6/sprite_mediatypes_2x_3be21f338c88.png/3be21f338c88.png);
+    background-image: url(/assets/3be21f338c88.png);
   }
   .mediatypesSpriteCarousel__filled__32 {
     background-size: 65px 65px;
@@ -1228,7 +1228,7 @@ a.A086a {
 .loggedoutSpriteGlyph_Contextual_Login,
 .loggedoutSpriteLike_Contextual_Login,
 .loggedoutSpriteSave_Contextual_Login {
-  background-image: url(/static/bundles/es6/sprite_loggedout_995ea10178c7.png/995ea10178c7.png);
+  background-image: url(/assets/995ea10178c7.png);
 }
 .loggedoutSpriteComment_Contextual_Login,
 .loggedoutSpriteFollow_Contextual_Login {
@@ -1264,7 +1264,7 @@ a.A086a {
   .loggedoutSpriteGlyph_Contextual_Login,
   .loggedoutSpriteLike_Contextual_Login,
   .loggedoutSpriteSave_Contextual_Login {
-    background-image: url(/static/bundles/es6/sprite_loggedout_2x_839e62b1415f.png/839e62b1415f.png);
+    background-image: url(/assets/839e62b1415f.png);
   }
   .loggedoutSpriteComment_Contextual_Login {
     background-size: 118px 81px;
@@ -1447,7 +1447,7 @@ a.A086a {
 .glyphsSpriteWhite_Close,
 .glyphsSpriteX__filled__12__white,
 .glyphsSpriteX__outline__24__grey_9 {
-  background-image: url(/static/bundles/es6/sprite_glyphs_df76f1f4e723.png/df76f1f4e723.png);
+  background-image: url(/assets/df76f1f4e723.png);
 }
 .glyphsSpriteAdd__outline__24__blue_5,
 .glyphsSpriteAdd__outline__24__grey_9 {
@@ -3119,7 +3119,7 @@ a.A086a {
 }
 .debuginfoSpriteBugnub,
 .debuginfoSpriteDevtools {
-  background-image: url(/static/bundles/es6/sprite_debuginfo_04482f505972.png/04482f505972.png);
+  background-image: url(/assets/04482f505972.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   height: 22px;
@@ -3133,7 +3133,7 @@ a.A086a {
   (min-resolution: 144dpi) {
   .debuginfoSpriteBugnub,
   .debuginfoSpriteDevtools {
-    background-image: url(/static/bundles/es6/sprite_debuginfo_2x_24b85a13663c.png/24b85a13663c.png);
+    background-image: url(/assets/24b85a13663c.png);
     background-size: 45px 22px;
     background-position: 0 0;
   }
@@ -5956,6 +5956,7 @@ a.FPmhX.MBL3Z {
   opacity: 0;
   padding: 16px 20px;
   position: fixed;
+  text-align: center;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
